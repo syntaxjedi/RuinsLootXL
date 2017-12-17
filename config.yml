@@ -1,0 +1,148 @@
+#############################################################
+# 20 ticks/second 20 ticks * 60 seconds = 1200 ticks/minute #
+# default 6000 ticks (5 minutes)                            #
+#                                                           #
+# Copy from '- ==: org.bukkit...' to 'type: ITEM' to make   #
+# a new item, setting an entry to only '- null' denotes an  #
+# empty slot in the chest                                   #
+#############################################################
+time:
+  ticks: 6000
+random:
+  enabled: false
+  randomChest: false
+  defaultType: common
+  ticks: 3600
+  amount: 10
+chestChance:
+  common: 70
+  uncommon: 20
+  legendary: 10
+  
+#############################################################
+# Put each world you want chests to spawn in under "worlds" #
+# Needs exact world names to work (the folder name)         #
+#                                                           #
+#   |Doesn't work in the nether, always spawns above!!|     #
+#                                                           #
+# Min/Max values reflect the world size, or desired size    #
+# around 0,0 you want the chests to spawn in                #
+#############################################################
+worlds:
+  world:
+    minX: -100
+    maxX: 100
+    minY: -100
+    maxY: 100
+  world_nether:
+    minX: -100
+    maxX: 100
+    minY: -100
+    maxY: 100
+  world_the_end:
+    minX: -100
+    maxX: 100
+    minY: -100
+    maxY: 100
+chests:
+  common:
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_INGOT
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_PICKAXE
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_INGOT
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  uncommon:
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_PICKAXE
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  legendary:
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_BLOCK
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD_BLOCK
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BLOCK
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_BLOCK
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD_BLOCK
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BLOCK
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_BLOCK
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: EMERALD_BLOCK
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BLOCK
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null

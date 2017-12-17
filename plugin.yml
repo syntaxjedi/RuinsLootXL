@@ -1,0 +1,11 @@
+main: net.syntaxjedi.ruinslootXL.RuinsLoot
+name: RuinsLootXL
+version: 2.0
+author: SyntaxJedi
+description: Refresh all the loot!
+commands:
+  lootchest:
+    description: Random spawning lootchest across the world!
+    usage: /lootchest help
+    permission: ruinslootXL.chest
+    permission-message: You don't have permission to run this command.
